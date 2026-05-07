@@ -3,16 +3,15 @@
 export const profile = {
   name: "Farley Piedrahita Orozco",
   role: "QA Software Developer & Cybersecurity Student",
-  tagline: "Breaking software to make it stronger. Studying the art of digital defense.",
+  tagline: "Construyendo software más seguro a través de pruebas y ciberseguridad.",
   location: "Colombia",
-  email: "frlpiedrahita@gmail.com",
+  email: "farchodev@gmail.com",
   phone: "+57 302 251 5116",
-  bio: "Desarrollador QA con enfoque en automatización de pruebas y estudiante junior de ciberseguridad. Combino la precisión del testing con la mentalidad ofensiva de un aprendiz de seguridad. Mi objetivo: construir software que no solo funcione, sino que resista.",
+  bio: "QA Software Developer con enfoque en automatización de pruebas y ciberseguridad. Combino la precisión del testing con una mentalidad orientada a la seguridad para construir software que no solo funcione correctamente, sino que también sea resiliente y confiable.",
   social: {
     github: "https://github.com/FARLEY-PIEDRAHITA-OROZCO",
-    linkedin: "https://linkedin.com/in/farleyp",
-    twitter: "https://twitter.com/farleyp",
-    tryhackme: "https://tryhackme.com/p/farleyp"
+    linkedin: "https://www.linkedin.com/in/farley-piedrahita-orozco-523073147",
+    tryhackme: "https://tryhackme.com/p/farchodev"
   },
   stats: [
     { label: "Test Cases Automated", value: "420+" },

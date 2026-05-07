@@ -1,6 +1,6 @@
 import React from "react";
 import { profile } from "../data/mock";
-import { Github, Linkedin, Twitter, Terminal, Heart } from "lucide-react";
+import { Github, Linkedin, Terminal, Heart } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -30,7 +30,7 @@ export default function Footer() {
           {[
             { icon: Github, href: profile.social.github },
             { icon: Linkedin, href: profile.social.linkedin },
-            { icon: Twitter, href: profile.social.twitter }
+            { icon: Terminal, href: profile.social.tryhackme }
           ].map((s, i) => (
             <a
               key={i}

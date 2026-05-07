@@ -6,7 +6,7 @@ import { Button } from "./ui/button";
 import { Input } from "./ui/input";
 import { Textarea } from "./ui/textarea";
 import { useToast } from "../hooks/use-toast";
-import { Mail, Phone, MapPin, Github, Linkedin, Twitter, Send, Terminal } from "lucide-react";
+import { Mail, Phone, MapPin, Github, Linkedin, Send, Terminal } from "lucide-react";
 
 const API = `${process.env.REACT_APP_BACKEND_URL}/api`;
 
@@ -113,7 +113,6 @@ export default function Contact() {
               {[
                 { icon: Github, href: profile.social.github },
                 { icon: Linkedin, href: profile.social.linkedin },
-                { icon: Twitter, href: profile.social.twitter },
                 { icon: Terminal, href: profile.social.tryhackme }
               ].map((s, i) => (
                 <a

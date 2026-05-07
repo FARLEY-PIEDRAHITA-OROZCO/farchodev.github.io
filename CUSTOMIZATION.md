@@ -29,7 +29,7 @@ export const profile = {
   social: {
     github: "https://github.com/...",
     linkedin: "https://linkedin.com/in/...",
-    twitter: "https://twitter.com/...",
+    // twitter: "https://twitter.com/...",
     tryhackme: "https://tryhackme.com/p/..."
   },
   stats: [
