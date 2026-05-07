@@ -22,29 +22,9 @@ export const profile = {
 };
 
 export const skills = {
-  qa: [
-    { name: "Selenium", level: 90 },
-    { name: "Cypress", level: 85 },
-    { name: "Playwright", level: 80 },
-    { name: "Postman / REST", level: 92 },
-    { name: "JMeter", level: 70 },
-    { name: "TestRail", level: 78 }
-  ],
-  security: [
-    { name: "Burp Suite", level: 75 },
-    { name: "Nmap", level: 80 },
-    { name: "Wireshark", level: 70 },
-    { name: "OWASP Top 10", level: 82 },
-    { name: "Kali Linux", level: 78 },
-    { name: "Metasploit", level: 65 }
-  ],
-  languages: [
-    { name: "JavaScript", level: 88 },
-    { name: "Python", level: 85 },
-    { name: "Java", level: 75 },
-    { name: "Bash", level: 80 },
-    { name: "SQL", level: 82 }
-  ]
+  qa: ["Selenium", "Cypress", "Playwright", "Postman / REST", "JMeter", "TestRail"],
+  security: ["Burp Suite", "Nmap", "Wireshark", "OWASP Top 10", "Kali Linux", "Metasploit"],
+  languages: ["JavaScript", "Python", "Java", "Bash", "SQL"]
 };
 
 export const projects = [
