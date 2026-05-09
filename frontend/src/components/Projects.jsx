@@ -1,4 +1,4 @@
-import React, { useRef, useCallback } from "react";
+import React, { useState, useRef, useCallback } from "react";
 import Reveal from "./Reveal";
 import { projects } from "../data/mock";
 import { Github, ExternalLink, Filter } from "lucide-react";

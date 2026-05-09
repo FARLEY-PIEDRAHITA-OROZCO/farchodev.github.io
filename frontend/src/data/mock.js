@@ -17,7 +17,7 @@ export const profile = {
     { label: "Test Cases Automated", value: "420+" },
     { label: "Bugs Hunted", value: "180+" },
     { label: "CTF Rooms Solved", value: "35+" },
-    { label: "Years of Practice", value: "3+" }
+    { label: "Years of Practice", value: "1+" }
   ]
 };
 
@@ -42,11 +42,11 @@ export const projects = [
     id: 2,
     title: "VulnLab Scanner",
     category: "Cybersecurity",
-    description: "Herramienta CLI en Python que automatiza el escaneo OWASP Top 10 básico sobre aplicaciones web locales. Ideal para labs y aprendizaje.",
+    description: "Herramienta profesional de escaneo de vulnerabilidades web basada en OWASP Top 10 (2021), diseñada para automatizar pruebas de seguridad de manera modular, fácil de instalar y usar.",
     tags: ["Python", "OWASP", "CLI", "Security"],
     image: "https://images.unsplash.com/photo-1510915361894-db8b60106cb1?w=800&q=80",
-    github: "#",
-    demo: "#"
+    github: "https://github.com/FARLEY-PIEDRAHITA-OROZCO/vulnlab-scanner",
+    demo: "https://pypi.org/project/vulnlab-scanner/"
   },
   {
     id: 3,
@@ -93,9 +93,9 @@ export const projects = [
 export const experience = [
   {
     id: 1,
-    company: "TechCore Solutions",
-    role: "QA Automation Engineer",
-    period: "2023 — Present",
+    company: "SQA - Software Quality Assurance S.A",
+    role: "QA Automation",
+    period: "Septiembre 2025 — Present",
     location: "Remote",
     description: "Diseño e implementación de frameworks de automatización E2E. Integración con pipelines CI/CD y reducción del 60% en regresiones críticas.",
     achievements: [
@@ -106,9 +106,9 @@ export const experience = [
   },
   {
     id: 2,
-    company: "Innovatech Labs",
-    role: "Junior QA Analyst",
-    period: "2022 — 2023",
+    company: "SQA - Software Quality Assurance S.A",
+    role: "QA Analyst",
+    period: "Marzo 2025 — Septiembre 2025",
     location: "Medellín, CO",
     description: "Ejecución de pruebas manuales y automatizadas sobre plataformas SaaS. Documentación de bugs y coordinación con equipos de desarrollo.",
     achievements: [
@@ -135,50 +135,74 @@ export const experience = [
 export const certifications = [
   {
     id: 1,
-    name: "ISTQB Certified Tester Foundation Level",
-    issuer: "ISTQB",
-    year: "2023",
-    credentialId: "CTFL-2023-XXXXX",
-    icon: "ShieldCheck"
-  },
-  {
-    id: 2,
-    name: "Certified Ethical Hacker (In Progress)",
-    issuer: "EC-Council",
-    year: "2025",
-    credentialId: "In Progress",
-    icon: "Shield"
-  },
-  {
-    id: 3,
-    name: "TryHackMe Pre-Security Path",
-    issuer: "TryHackMe",
-    year: "2024",
-    credentialId: "THM-PRESEC-2024",
+    name: "Tecnólogo en Análisis y Desarollo de Software",
+    issuer: "Servicio Nacional de Aprendizaje (SENA)",
+    year: "2026",
+    credentialId: "9220002758287CC1000534117C",
     icon: "Terminal"
   },
   {
-    id: 4,
-    name: "Google Cybersecurity Professional",
-    issuer: "Coursera / Google",
-    year: "2024",
-    credentialId: "GOOG-CYB-2024",
-    icon: "Award"
-  },
-  {
-    id: 5,
-    name: "Playwright Automation Specialist",
-    issuer: "Test Automation University",
-    year: "2023",
-    credentialId: "TAU-PW-2023",
+    id: 2,
+    name: "Curso PIX RPA 3.0",
+    issuer: "PIX Robotics",
+    year: "2026",
+    credentialId: "0157652215FP",
     icon: "Bot"
   },
   {
-    id: 6,
-    name: "CompTIA Security+ (Studying)",
-    issuer: "CompTIA",
+    id: 3,
+    name: "Curso de Azure DevOps: Flujos de CI/CD",
+    issuer: "Platzi",
     year: "2025",
-    credentialId: "In Progress",
-    icon: "Lock"
+    credentialId: "8acfa298-1bee-403c-8a19-a4da35ab69a4",
+    icon: "Award"
+  },
+  {
+    id: 4,
+    name: "Fundamentos del Desarrollo Web Profesional",
+    issuer: "Platzi",
+    year: "2025",
+    credentialId: "4249c17a-143d-45e8-b71b-44eb0a3bb62e",
+    icon: "Terminal"
+  },
+  {
+    id: 5,
+    name: "Introducción al desarrollo de back-end",
+    issuer: "Meta",
+    year: "2025",
+    credentialId: "FLN1KFPWW9VD",
+    icon: "Terminal"
+  },
+  {
+    id: 6,
+    name: "Visualización, Análisis e Interpretación de Datos con Power BI",
+    issuer: "CESDE",
+    year: "2025",
+    credentialId: "1000660587-556-CDE-40",
+    icon: "Award"
+  },
+  {
+    id: 7,
+    name: "Fundamentos de Programación e Ingeniería de Software",
+    issuer: "Platzi",
+    year: "2025",
+    credentialId: "1d541f71-f5cf-4cfe-a857-65f2fd39ffcf",
+    icon: "Bot"
+  },
+  {
+    id: 8,
+    name: "Construcción de bases de datos con MySQL",
+    issuer: "Servicio Nacional de Aprendizaje (SENA)",
+    year: "2023",
+    credentialId: "9537002860368CC1000534117C",
+    icon: "Terminal"
+  },
+  {
+    id: 9,
+    name: "Metodología de la programación de sistemas informáticos",
+    issuer: "Servicio Nacional de Aprendizaje (SENA)",
+    year: "2023",
+    credentialId: "9544002869307CC1000534117C",
+    icon: "Terminal"
   }
 ];
