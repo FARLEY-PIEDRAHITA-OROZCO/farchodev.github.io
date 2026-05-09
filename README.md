@@ -2,7 +2,7 @@
 
 > Portafolio interactivo 3D para un QA Software Developer y estudiante junior de ciberseguridad.
 
-![Dark mode hero](docs/preview-night.png)
+![Dark mode hero](/public/preview-nigh.png)
 
 ---
 
